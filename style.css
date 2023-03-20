@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 96px auto;
+    position: relative;
+}
+
+
+.img{
+    width:72px;
+    height:72px;
+    background-color: #fff;
+}
+
+.first{
+    font-size: 24px;
+    font-family: sans-serif;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.row{
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+    margin-left: 10px;
+}  
+
+.heading{
+    background-color: lightblue;
+    color:black;
+    padding: 60px;
+}
+
+.about{
+    font-size: 24px;
+}
+
+
+h2{
+    font-size: 48px;
+}
+
+
+.second{
+    margin-top: 48px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.third{
+    margin-top: 40px;
+    font-size: 28px;
+    line-height: 1.50;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color:  #868e96;
+    
+
+}
+
+.dr{
+    font-size: 37px;
+    margin-bottom: 24px;
+    font-family: sans-serif;
+}
+
+.k{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.home{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ucek{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.com{
+    margin-top: 40px;
+    width:95%;
+    height: 75%;
+    border-radius: 20px;
+    transform: scale(1);
+    box-shadow: 0 0px 40px 0 rgba(0, 0, 0, 0.10);
+}
+
+.hod{
+    display: flex;
+    align-items: center;
+    gap:86px;
+    background-color: lightblue;
+    
+    padding: 24px;
+        padding-left: 86px;
+}
+
+.zero{
+    margin-top: 40px;
+}
+.hero{
+    margin-top: 100px;
+}
+.head{
+    margin-left: 54px;
+}
+
+.height{
+width: 200px;
+    height: 200px;
+    
+    border-radius: 8px;
+    transform: scale(1.5);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.heigh{
+    width: 150px;
+    height: 200px;
+    
+    border-radius: 8px;
+    transform: scale(1.5);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); 
+}
+
+.foot{
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    background-color: black;
+    color:#fff;
+    margin-top: 45px;
+    padding: 24px
+    
+}
